@@ -3,7 +3,7 @@ import yaml from 'js-yaml';
 import query from './services/db.js';
 import cors from 'cors';
 import express from 'express';
-import router from './routes /ipl.js';
+import router from './routes/ipl.js';
 
 const app = express();
 app.use(cors({
